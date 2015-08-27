@@ -2,12 +2,20 @@ body{
 	background-image: url('http://img.freepik.com/fotos-gratis/luzes-multicoloridas-partido-fundo_293-704.jpg?size=338&ext=jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+   margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
-#header {
+header {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color:black;
-    color:Red;
+    color:#FF0000;
     text-align:center;
-    padding:5px;
 }
 
 h1 {
@@ -27,29 +35,24 @@ h1 {
 }
 img {
   float: left;
+  margin-top: 100px;
   margin-right: 10px;
-  height: 300px
-  
+  height: 300px;
+  z-index: 30;
 }
-
-#nav {
-    line-height:40px;
-    background-color: #A200FF;
-    height:300px;
-    width:200px;
-    float:right;
-    padding:5px; 
-}
-
 p {
+  position: relative;
+  margin-top: 110px;
+  width: 100%;
   font-family: Arial;
   font-size: 30px;
+  text-align: center;
   line-height: 1em;
-  margin-right: 3;
-  
+  margin-right: 3; 
+  z-index: 1;
 }
 h2 {
-  color: #00ff00;
+  color: #FF0000;
   font-size: 40px;
 }
 h3 {
@@ -59,3 +62,85 @@ h3 {
   border-bottom: 5px solid #aaaaaa;
   padding: 2px;
 }
+
+
+
+
+form
+{
+  margin-top: 5%;
+  z-index: 1;
+  margin-top: 50px;
+
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+    z-index: 1;
+      margin-top: 200px;
+
+
+}
+
+.form-signin .form-signin-heading,.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+  font-weight: normal;
+}
+
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.form-signin input[type="submit"] {
+  margin-top: 15px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.form-signin textarea
+{
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+nav li{
+  display: inline;
+}
+
+nav li a{
+  font-size: 40px;
+  padding-right: 15px;
+}
+
+nav li a:hover{
+  background: lightblue;
+}
+
