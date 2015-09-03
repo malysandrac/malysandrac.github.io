@@ -13,7 +13,7 @@ header {
     left: 0;
     margin-top: -35px;
     width: 100%;
-    background-color:black;
+    background-color: black;
     color:#FF0000;
     text-align:center;
 }
@@ -34,11 +34,14 @@ h1 {
   font-size: 50px
 }
 img {
-  float: left;
+  
   margin-top: 100px;
   margin-right: 10px;
   height: 300px;
   z-index: 30;
+}
+.picture {
+  float: left;
 }
 p {
   position: relative;
@@ -139,11 +142,15 @@ form
   margin: 1px; 
   width: 75px; 
   height: auto;
-  padding: 10px;
+  padding: 30px;
 }
 
+.contact-info {
+  text-align: center;
+}
+.left-container {
 
-
+}
 
 nav li{
   display: inline;
