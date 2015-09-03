@@ -8,10 +8,10 @@ body{
   height: 100%;
 }
 header {
-    position: fixed;
     z-index: 10;
     top: 0;
     left: 0;
+    margin-top: -35px;
     width: 100%;
     background-color:black;
     color:#FF0000;
@@ -123,10 +123,24 @@ form
   margin-top: 5px;
 }
 
+#notification {
+    display: none;
+    position: fixed;
+    cursor: pointer;
+    width: 100%;
+    background: #EFEFEF;
+    text-align: center;
+    border-top: 2px solid #FFF;
+    z-index:9999;
+}
 
 
-
-
+.social-media {
+  margin: 1px; 
+  width: 75px; 
+  height: auto;
+  padding: 10px;
+}
 
 
 
