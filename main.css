@@ -149,7 +149,8 @@ form
   text-align: center;
 }
 .left-container {
-
+  width: 30px;
+  height: 50px;
 }
 
 nav li{
